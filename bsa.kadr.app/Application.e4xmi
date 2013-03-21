@@ -3,10 +3,15 @@
   <children xsi:type="basic:TrimmedWindow" xmi:id="_1KX-AU2vEeK4GqNFMafaAg" label="bsa.kadr.app" width="500" height="400">
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_1KX-H02vEeK4GqNFMafaAg">
       <children xsi:type="advanced:Perspective" xmi:id="_1KX-IE2vEeK4GqNFMafaAg">
-        <children xsi:type="basic:PartSashContainer" xmi:id="_1KX-IU2vEeK4GqNFMafaAg" elementId="bsa.kadr.app.partsashcontaner.bottom" containerData="" selectedElement="_MkUHgE8yEeKl4sJIphJ0eQ">
-          <children xsi:type="basic:Part" xmi:id="_MkUHgE8yEeKl4sJIphJ0eQ" elementId="bsa.kadr.app.part.0" containerData="10" contributionURI="bundleclass://bsa.kadr.app/bsa.kadr.app.parts.SearchPart" label="Search"/>
-          <children xsi:type="basic:PartStack" xmi:id="_1KX-Ik2vEeK4GqNFMafaAg" containerData="90">
-            <children xsi:type="basic:Part" xmi:id="_1KX-I02vEeK4GqNFMafaAg" contributionURI="bundleclass://bsa.kadr.app/bsa.kadr.app.parts.SamplePart" label="Sample Part"/>
+        <children xsi:type="basic:PartSashContainer" xmi:id="_1KX-IU2vEeK4GqNFMafaAg" elementId="bsa.kadr.app.partsashcontaner.extern" containerData="" selectedElement="_MkUHgE8yEeKl4sJIphJ0eQ">
+          <children xsi:type="basic:Part" xmi:id="_MkUHgE8yEeKl4sJIphJ0eQ" elementId="bsa.kadr.app.part.search" containerData="10" contributionURI="bundleclass://bsa.kadr.app/bsa.kadr.app.parts.SearchPart" label="Search"/>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_zYgI0JHsEeKkPpBPXOOlJQ" elementId="bsa.kadr.app.partsashcontainer.data" containerData="90" horizontal="true">
+            <children xsi:type="basic:Part" xmi:id="_B7hGUJHtEeKkPpBPXOOlJQ" elementId="bsa.kadr.app.part.famtable" containerData="40" contributionURI="bundleclass://bsa.kadr.app/bsa.kadr.app.parts.FamTablePart"/>
+            <children xsi:type="basic:PartStack" xmi:id="_1KX-Ik2vEeK4GqNFMafaAg" elementId="bsa.kadr.app.partstack.data" containerData="60">
+              <children xsi:type="basic:Part" xmi:id="_1KX-I02vEeK4GqNFMafaAg" elementId="bsa.kadr.app.part.status" contributionURI="bundleclass://bsa.kadr.app/bsa.kadr.app.parts.SamplePart" label="Статус"/>
+              <children xsi:type="basic:Part" xmi:id="_KFzf0JHwEeKkPpBPXOOlJQ" elementId="bsa.kadr.app.part.persondata" label="Личные данные"/>
+              <children xsi:type="basic:Part" xmi:id="_0waA0JH1EeKkPpBPXOOlJQ" elementId="bsa.kadr.app.part.history" label="История"/>
+            </children>
           </children>
         </children>
       </children>

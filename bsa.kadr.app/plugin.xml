@@ -15,6 +15,10 @@
                name="applicationCSS"
                value="platform:/plugin/bsa.kadr.app/css/default.css">
          </property>
+         <property
+               name="appName"
+               value="bsa.kadr.app">
+         </property>
       </product>
    </extension>
 
